@@ -1,0 +1,6 @@
+framework module Pods_CustomTabBar_UiKitTests {
+  umbrella header "Pods-CustomTabBar-UiKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
