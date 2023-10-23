@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C953EE22AE664AB00384DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C953EE12AE664AB00384DDF /* AppDelegate.swift */; };
+		3C953EE42AE664AB00384DDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C953EE32AE664AB00384DDF /* SceneDelegate.swift */; };
+		3C953EE62AE664AB00384DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C953EE52AE664AB00384DDF /* ViewController.swift */; };
+		3C953EE92AE664AB00384DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C953EE72AE664AB00384DDF /* Main.storyboard */; };
+		3C953EEB2AE664AF00384DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C953EEA2AE664AF00384DDF /* Assets.xcassets */; };
+		3C953EEE2AE664AF00384DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C953EEC2AE664AF00384DDF /* LaunchScreen.storyboard */; };
+		3C953EF92AE664AF00384DDF /* CustomTabBar_UiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C953EF82AE664AF00384DDF /* CustomTabBar_UiKitTests.swift */; };
+		3C953F032AE664AF00384DDF /* CustomTabBar_UiKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C953F022AE664AF00384DDF /* CustomTabBar_UiKitUITests.swift */; };
+		3C953F052AE664AF00384DDF /* CustomTabBar_UiKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C953F042AE664AF00384DDF /* CustomTabBar_UiKitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C953EF52AE664AF00384DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C953ED62AE664AB00384DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C953EDD2AE664AB00384DDF;
+			remoteInfo = "CustomTabBar-UiKit";
+		};
+		3C953EFF2AE664AF00384DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C953ED62AE664AB00384DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C953EDD2AE664AB00384DDF;
+			remoteInfo = "CustomTabBar-UiKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C953EDE2AE664AB00384DDF /* CustomTabBar-UiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CustomTabBar-UiKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C953EE12AE664AB00384DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C953EE32AE664AB00384DDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C953EE52AE664AB00384DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C953EE82AE664AB00384DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C953EEA2AE664AF00384DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C953EED2AE664AF00384DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C953EEF2AE664AF00384DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C953EF42AE664AF00384DDF /* CustomTabBar-UiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CustomTabBar-UiKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C953EF82AE664AF00384DDF /* CustomTabBar_UiKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar_UiKitTests.swift; sourceTree = "<group>"; };
+		3C953EFE2AE664AF00384DDF /* CustomTabBar-UiKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CustomTabBar-UiKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C953F022AE664AF00384DDF /* CustomTabBar_UiKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar_UiKitUITests.swift; sourceTree = "<group>"; };
+		3C953F042AE664AF00384DDF /* CustomTabBar_UiKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar_UiKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C953EDB2AE664AB00384DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C953EF12AE664AF00384DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C953EFB2AE664AF00384DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C953ED52AE664AB00384DDF = {
+			isa = PBXGroup;
+			children = (
+				3C953EE02AE664AB00384DDF /* CustomTabBar-UiKit */,
+				3C953EF72AE664AF00384DDF /* CustomTabBar-UiKitTests */,
+				3C953F012AE664AF00384DDF /* CustomTabBar-UiKitUITests */,
+				3C953EDF2AE664AB00384DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C953EDF2AE664AB00384DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C953EDE2AE664AB00384DDF /* CustomTabBar-UiKit.app */,
+				3C953EF42AE664AF00384DDF /* CustomTabBar-UiKitTests.xctest */,
+				3C953EFE2AE664AF00384DDF /* CustomTabBar-UiKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C953EE02AE664AB00384DDF /* CustomTabBar-UiKit */ = {
+			isa = PBXGroup;
+			children = (
+				3C953EE12AE664AB00384DDF /* AppDelegate.swift */,
+				3C953EE32AE664AB00384DDF /* SceneDelegate.swift */,
+				3C953EE52AE664AB00384DDF /* ViewController.swift */,
+				3C953EE72AE664AB00384DDF /* Main.storyboard */,
+				3C953EEA2AE664AF00384DDF /* Assets.xcassets */,
+				3C953EEC2AE664AF00384DDF /* LaunchScreen.storyboard */,
+				3C953EEF2AE664AF00384DDF /* Info.plist */,
+			);
+			path = "CustomTabBar-UiKit";
+			sourceTree = "<group>";
+		};
+		3C953EF72AE664AF00384DDF /* CustomTabBar-UiKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C953EF82AE664AF00384DDF /* CustomTabBar_UiKitTests.swift */,
+			);
+			path = "CustomTabBar-UiKitTests";
+			sourceTree = "<group>";
+		};
+		3C953F012AE664AF00384DDF /* CustomTabBar-UiKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C953F022AE664AF00384DDF /* CustomTabBar_UiKitUITests.swift */,
+				3C953F042AE664AF00384DDF /* CustomTabBar_UiKitUITestsLaunchTests.swift */,
+			);
+			path = "CustomTabBar-UiKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C953EDD2AE664AB00384DDF /* CustomTabBar-UiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C953F082AE664AF00384DDF /* Build configuration list for PBXNativeTarget "CustomTabBar-UiKit" */;
+			buildPhases = (
+				3C953EDA2AE664AB00384DDF /* Sources */,
+				3C953EDB2AE664AB00384DDF /* Frameworks */,
+				3C953EDC2AE664AB00384DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomTabBar-UiKit";
+			productName = "CustomTabBar-UiKit";
+			productReference = 3C953EDE2AE664AB00384DDF /* CustomTabBar-UiKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C953EF32AE664AF00384DDF /* CustomTabBar-UiKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C953F0B2AE664AF00384DDF /* Build configuration list for PBXNativeTarget "CustomTabBar-UiKitTests" */;
+			buildPhases = (
+				3C953EF02AE664AF00384DDF /* Sources */,
+				3C953EF12AE664AF00384DDF /* Frameworks */,
+				3C953EF22AE664AF00384DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C953EF62AE664AF00384DDF /* PBXTargetDependency */,
+			);
+			name = "CustomTabBar-UiKitTests";
+			productName = "CustomTabBar-UiKitTests";
+			productReference = 3C953EF42AE664AF00384DDF /* CustomTabBar-UiKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C953EFD2AE664AF00384DDF /* CustomTabBar-UiKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C953F0E2AE664AF00384DDF /* Build configuration list for PBXNativeTarget "CustomTabBar-UiKitUITests" */;
+			buildPhases = (
+				3C953EFA2AE664AF00384DDF /* Sources */,
+				3C953EFB2AE664AF00384DDF /* Frameworks */,
+				3C953EFC2AE664AF00384DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C953F002AE664AF00384DDF /* PBXTargetDependency */,
+			);
+			name = "CustomTabBar-UiKitUITests";
+			productName = "CustomTabBar-UiKitUITests";
+			productReference = 3C953EFE2AE664AF00384DDF /* CustomTabBar-UiKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C953ED62AE664AB00384DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3C953EDD2AE664AB00384DDF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3C953EF32AE664AF00384DDF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3C953EDD2AE664AB00384DDF;
+					};
+					3C953EFD2AE664AF00384DDF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3C953EDD2AE664AB00384DDF;
+					};
+				};
+			};
+			buildConfigurationList = 3C953ED92AE664AB00384DDF /* Build configuration list for PBXProject "CustomTabBar-UiKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C953ED52AE664AB00384DDF;
+			productRefGroup = 3C953EDF2AE664AB00384DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C953EDD2AE664AB00384DDF /* CustomTabBar-UiKit */,
+				3C953EF32AE664AF00384DDF /* CustomTabBar-UiKitTests */,
+				3C953EFD2AE664AF00384DDF /* CustomTabBar-UiKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C953EDC2AE664AB00384DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C953EEE2AE664AF00384DDF /* LaunchScreen.storyboard in Resources */,
+				3C953EEB2AE664AF00384DDF /* Assets.xcassets in Resources */,
+				3C953EE92AE664AB00384DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C953EF22AE664AF00384DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C953EFC2AE664AF00384DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C953EDA2AE664AB00384DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C953EE62AE664AB00384DDF /* ViewController.swift in Sources */,
+				3C953EE22AE664AB00384DDF /* AppDelegate.swift in Sources */,
+				3C953EE42AE664AB00384DDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C953EF02AE664AF00384DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C953EF92AE664AF00384DDF /* CustomTabBar_UiKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C953EFA2AE664AF00384DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C953F052AE664AF00384DDF /* CustomTabBar_UiKitUITestsLaunchTests.swift in Sources */,
+				3C953F032AE664AF00384DDF /* CustomTabBar_UiKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C953EF62AE664AF00384DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C953EDD2AE664AB00384DDF /* CustomTabBar-UiKit */;
+			targetProxy = 3C953EF52AE664AF00384DDF /* PBXContainerItemProxy */;
+		};
+		3C953F002AE664AF00384DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C953EDD2AE664AB00384DDF /* CustomTabBar-UiKit */;
+			targetProxy = 3C953EFF2AE664AF00384DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C953EE72AE664AB00384DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C953EE82AE664AB00384DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C953EEC2AE664AF00384DDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C953EED2AE664AF00384DDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C953F062AE664AF00384DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C953F072AE664AF00384DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C953F092AE664AF00384DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CustomTabBar-UiKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.CustomTabBar-UiKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C953F0A2AE664AF00384DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CustomTabBar-UiKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.CustomTabBar-UiKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C953F0C2AE664AF00384DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.CustomTabBar-UiKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTabBar-UiKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomTabBar-UiKit";
+			};
+			name = Debug;
+		};
+		3C953F0D2AE664AF00384DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.CustomTabBar-UiKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTabBar-UiKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomTabBar-UiKit";
+			};
+			name = Release;
+		};
+		3C953F0F2AE664AF00384DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.CustomTabBar-UiKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CustomTabBar-UiKit";
+			};
+			name = Debug;
+		};
+		3C953F102AE664AF00384DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8677HC9HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubix.CustomTabBar-UiKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CustomTabBar-UiKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C953ED92AE664AB00384DDF /* Build configuration list for PBXProject "CustomTabBar-UiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C953F062AE664AF00384DDF /* Debug */,
+				3C953F072AE664AF00384DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C953F082AE664AF00384DDF /* Build configuration list for PBXNativeTarget "CustomTabBar-UiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C953F092AE664AF00384DDF /* Debug */,
+				3C953F0A2AE664AF00384DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C953F0B2AE664AF00384DDF /* Build configuration list for PBXNativeTarget "CustomTabBar-UiKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C953F0C2AE664AF00384DDF /* Debug */,
+				3C953F0D2AE664AF00384DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C953F0E2AE664AF00384DDF /* Build configuration list for PBXNativeTarget "CustomTabBar-UiKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C953F0F2AE664AF00384DDF /* Debug */,
+				3C953F102AE664AF00384DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C953ED62AE664AB00384DDF /* Project object */;
+}
